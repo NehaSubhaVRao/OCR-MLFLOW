@@ -4,7 +4,7 @@ import mlflow
 import os
 
 def run_ocr(pdf_path):
-    images = convert_from_path(pdf_path)
+    images = convert_from_path(pdf_path )
     full_text = ""
     for page in images:
         text = pytesseract.image_to_string(page)

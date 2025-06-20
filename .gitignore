@@ -1,0 +1,16 @@
+# Ignore MLflow logs
+mlruns/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore system files
+.DS_Store
+
+# Ignore OCR output (optional)
+ocr_output.txt
